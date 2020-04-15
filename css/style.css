@@ -15,11 +15,41 @@ p{
     margin: 0.75rem 0;
 }
 
-
 /* Utility Classes */
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+.bg-light{
+    background: #f4f4f4;
+    color: #333;
+}
+.py-1{padding: 1.5rem 0;}
+.py-2{padding: 2rem 0;}
+.py-3{padding: 3rem 0;}
+.p-1{padding: 1.5rem}
+.p-2{padding: 2rem}
+.p-3{padding: 3rem}
+
+.m-1{margin: 1.5rem;}
+.m-2{margin: 2rem;}
+.m-3{margin: 3rem;}
+
 .text-primary{
     color: #93cb52;
 }
+.text-center{
+    text-align: center;
+}
+.list{
+    margin: 0.5rem 0;
+    list-style: none;    
+}
+.list li{
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
+/* Section NAVBAR */
 #navbar{
     position: sticky;
     top: 0;
@@ -70,3 +100,19 @@ p{
     color: white;
     font-size: 1.4rem;
 }
+
+
+/* Section: WHO WE ARE */
+#who{
+    display: flex;
+}
+#who div{
+    flex: 1;
+}
+#who .who-img{
+    background: url('../img/people.jpg') no-repeat center center/cover;
+}
+#who .who-text .list{
+    
+}
+
