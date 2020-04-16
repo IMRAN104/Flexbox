@@ -173,3 +173,16 @@ p{
     width: 60%;
 }
 
+
+
+
+/* Section Contact */
+#contact{
+    display: flex;
+}
+#contact .form{
+    flex: 1;
+}
+#contact .map{
+    flex: 1;
+}
